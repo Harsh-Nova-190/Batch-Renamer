@@ -1,0 +1,74 @@
+/* ============================================================
+   NovaBytes Dark Theme
+   ============================================================ */
+
+QMainWindow
+{
+    background-color: #0F172A;
+}
+
+QWidget
+{
+    background-color: #0F172A;
+    color: #F8FAFC;
+    font-family: "Segoe UI";
+    font-size: 10pt;
+}
+
+/* -------------------- Buttons -------------------- */
+
+QPushButton
+{
+    background-color: #3B82F6;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    padding: 10px 18px;
+
+    font-weight: 600;
+
+    min-height: 18px;
+}
+
+QPushButton:hover
+{
+    background-color: #2563EB;
+}
+
+QPushButton:pressed
+{
+    background-color: #1D4ED8;
+}
+
+/* -------------------- Status Bar -------------------- */
+
+QStatusBar
+{
+    background-color: #1E293B;
+
+    color: white;
+
+    border-top: 1px solid #334155;
+}
+
+/* -------------------- Frame -------------------- */
+
+QFrame#dropArea
+{
+    border: 2px dashed #3B82F6;
+
+    border-radius: 12px;
+
+    background-color: #1E293B;
+}
+
+/* -------------------- Label -------------------- */
+
+QLabel
+{
+    color: white;
+}

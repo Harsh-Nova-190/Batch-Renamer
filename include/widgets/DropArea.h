@@ -2,20 +2,27 @@
  * ------------------------------------------------------------
  * Project : NovaBytes Batch Renamer
  * Company : NovaBytes
- * File    : ThemeManager.h
+ * File    : DropArea.h
  * Author  : Harsh Laskar
  * ------------------------------------------------------------
  */
 
-
 #pragma once
+#include <QFrame>
 
-class QApplication;
+class QLabel;
 
-class ThemeManager
+class DropArea : public QFrame
 {
+	Q_OBJECT
 
 public:
-	static void ApplyTheme(QApplication& app);
+	explicit DropArea(QWidget* parent = nullptr);
+
+private:
+	QLabel* m_titleLabel;
+	QLabel* m_subTitleLabel;
+
+	void setupUI();
 
 };

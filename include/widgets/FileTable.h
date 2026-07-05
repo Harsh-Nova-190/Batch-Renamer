@@ -2,20 +2,22 @@
  * ------------------------------------------------------------
  * Project : NovaBytes Batch Renamer
  * Company : NovaBytes
- * File    : ThemeManager.h
+ * File    : FileTable.h
  * Author  : Harsh Laskar
  * ------------------------------------------------------------
  */
 
-
 #pragma once
 
-class QApplication;
+#include <QTableWidget>
 
-class ThemeManager
+class FileTable : public QTableWidget
 {
+	Q_OBJECT
 
 public:
-	static void ApplyTheme(QApplication& app);
+	explicit FileTable(QWidget* parent = nullptr);
 
+private:
+	void setupTable();
 };

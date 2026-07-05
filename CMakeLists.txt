@@ -19,11 +19,20 @@ add_executable(NovaBytesBatchRenamer
 
     src/ui/MainWindow.cpp
     include/ui/MainWindow.h
-
+    
     src/core/ThemeManager.cpp
     include/core/ThemeManager.h
+ 
+    include/widgets/DropArea.h
+    src/widgets/DropArea.cpp
+
+    resources/NovaBytesResources.qrc
+ 
+    include/widgets/FileTable.h
+    src/widgets/FileTable.cpp
 )
 
 target_include_directories(NovaBytesBatchRenamer PRIVATE include)
 
 target_link_libraries(NovaBytesBatchRenamer PRIVATE Qt6::Widgets)
+
