@@ -30,7 +30,7 @@ add_executable(NovaBytesBatchRenamer
  
     include/widgets/FileTable.h
     src/widgets/FileTable.cpp
-)
+ "src/core/FileManager.cpp" "include/core/FileManager.h" "include/models/FileItem.h" "src/core/RenameEngine.cpp" "include/core/RenameEngine.h" "include/widgets/RenamePanel.h" "src/widgets/RenamePanel.cpp" "include/models/RenameOptions.h" "include/core/RenameExecutor.h" "src/core/RenameExecutor.cpp")
 
 target_include_directories(NovaBytesBatchRenamer PRIVATE include)
 

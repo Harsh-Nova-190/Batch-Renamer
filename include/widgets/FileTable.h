@@ -10,14 +10,21 @@
 #pragma once
 
 #include <QTableWidget>
+#include <vector>
+
+#include "models/FileItem.h"
 
 class FileTable : public QTableWidget
 {
-	Q_OBJECT
+    Q_OBJECT
 
 public:
-	explicit FileTable(QWidget* parent = nullptr);
+    explicit FileTable(QWidget* parent = nullptr);
+
+	void refresh(const std::vector<FileItem>& files);
+
+    void loadFiles(const std::vector<FileItem>& files);
 
 private:
-	void setupTable();
+    void setupTable();
 };

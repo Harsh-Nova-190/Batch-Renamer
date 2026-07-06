@@ -9,8 +9,11 @@
 
 #pragma once
 #include <QFrame>
+#include <QStringList>
 
 class QLabel;
+class QDragEnterEvent;
+class QDropEvent;
 
 class DropArea : public QFrame
 {
@@ -24,5 +27,12 @@ private:
 	QLabel* m_subTitleLabel;
 
 	void setupUI();
+
+signals:
+	void filesDropped(const QStringList& filePaths);
+
+protected:
+	void dragEnterEvent(QDragEnterEvent* event) override;
+	void dropEvent(QDropEvent* event) override;
 
 };

@@ -12,11 +12,16 @@
 #include <QLabel>
 #include <QVBoxLayout>
 #include <QFont>
+#include <QDragEnterEvent>
+#include <QDropEvent>
+#include <QMimeData>
+#include <QUrl>
 
 DropArea::DropArea(QWidget* parent)
     : QFrame(parent)
 {
     setupUI();
+	setAcceptDrops(true);
 }
 
 void DropArea::setupUI()
@@ -44,4 +49,32 @@ void DropArea::setupUI()
     layout->addWidget(m_titleLabel);
     layout->addWidget(m_subTitleLabel);
     layout->addStretch();
+}
+
+void DropArea::dragEnterEvent(QDragEnterEvent* event)
+{
+    if (event->mimeData()->hasUrls())
+    {
+        event->acceptProposedAction();
+    }
+}
+
+void DropArea::dropEvent(QDropEvent* event)
+{
+    QStringList paths;
+
+    for (const QUrl& url : event->mimeData()->urls())
+    {
+        if (url.isLocalFile())
+        {
+            paths << url.toLocalFile();
+        }
+    }
+
+    if (!paths.isEmpty())
+    {
+        emit filesDropped(paths);
+    }
+
+    event->acceptProposedAction();
 }
