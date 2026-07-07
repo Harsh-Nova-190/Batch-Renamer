@@ -39,14 +39,14 @@ The application provides a clean user interface with live preview, drag-and-drop
 
 
 
-screenshots/home.png
+<img width="1500" height="912" alt="home" src="https://github.com/user-attachments/assets/f45a422a-c6e4-4ed5-84a2-8236d0a4c03e" />
+
 
 
 ### Rename Preview
 
 
-
-screenshots/preview.png
+<img width="1500" height="915" alt="preview" src="https://github.com/user-attachments/assets/7014282f-63a6-43e6-96ca-563282c2a53d" />
 
 
 ---
