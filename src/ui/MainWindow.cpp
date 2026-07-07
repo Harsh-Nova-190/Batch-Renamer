@@ -537,7 +537,7 @@ void MainWindow::connectSignals()
         []()
         {
             QDesktopServices::openUrl(
-                QUrl("https://github.com/Harsh-Nova-190/Batch-Renamer/docs"));
+                QUrl("https://github.com/Harsh-Nova-190/Batch-Renamer/issues/new"));
         });
 
     connect(
