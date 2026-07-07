@@ -38,16 +38,16 @@ The application provides a clean user interface with live preview, drag-and-drop
 ### Main Window
 
 
-```
+
 screenshots/home.png
-```
+
 
 ### Rename Preview
 
 
-```
+
 screenshots/preview.png
-```
+
 
 ---
 
