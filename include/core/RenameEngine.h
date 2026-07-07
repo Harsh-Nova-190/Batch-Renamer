@@ -3,6 +3,7 @@
  * Project : NovaBytes Batch Renamer
  * Company : NovaBytes
  * File    : RenameEngine.h
+ * Author  : Harsh Laskar
  * ------------------------------------------------------------
  */
 

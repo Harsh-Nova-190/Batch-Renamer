@@ -76,3 +76,8 @@ void FileTable::refresh(const std::vector<FileItem>& files)
 {
 	loadFiles(files);
 }
+
+void FileTable::selectAllRows()
+{
+    selectAll();
+}

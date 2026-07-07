@@ -3,6 +3,7 @@
  * Project : NovaBytes Batch Renamer
  * Company : NovaBytes
  * File    : RenamePanel.h
+ * Author  : Harsh Laskar
  * ------------------------------------------------------------
  */
 

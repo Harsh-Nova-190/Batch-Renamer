@@ -13,7 +13,7 @@ set(CMAKE_PREFIX_PATH "F:/Software/QT6/6.11.1/msvc2022_64/lib/cmake/Qt6")
 
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
 
-add_executable(NovaBytesBatchRenamer
+add_executable(NovaBytesBatchRenamer WIN32
 
     src/app/main.cpp
 
@@ -27,10 +27,34 @@ add_executable(NovaBytesBatchRenamer
     src/widgets/DropArea.cpp
 
     resources/NovaBytesResources.qrc
+    resources/qss/NovaBytesDark.qss
+    resources/app.rc
  
     include/widgets/FileTable.h
     src/widgets/FileTable.cpp
- "src/core/FileManager.cpp" "include/core/FileManager.h" "include/models/FileItem.h" "src/core/RenameEngine.cpp" "include/core/RenameEngine.h" "include/widgets/RenamePanel.h" "src/widgets/RenamePanel.cpp" "include/models/RenameOptions.h" "include/core/RenameExecutor.h" "src/core/RenameExecutor.cpp")
+ 
+    src/core/FileManager.cpp
+    include/core/FileManager.h
+    
+    include/models/FileItem.h
+
+    src/core/RenameEngine.cpp
+    include/core/RenameEngine.h
+    
+    include/widgets/RenamePanel.h
+    src/widgets/RenamePanel.cpp
+    
+    include/models/RenameOptions.h
+    
+    include/core/RenameExecutor.h
+    src/core/RenameExecutor.cpp
+
+    include/models/RenameOperation.h
+
+    include/ui/AboutDialog.h
+    src/ui/AboutDialog.cpp
+
+)
 
 target_include_directories(NovaBytesBatchRenamer PRIVATE include)
 

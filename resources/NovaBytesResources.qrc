@@ -2,4 +2,21 @@
     <qresource prefix="/">
         <file>qss/NovaBytesDark.qss</file>
     </qresource>
+	<qresource prefix="/">
+		<file>qss/NovaBytesDark.qss</file>
+	</qresource>
+	<qresource prefix="/">
+		<file>branding/NovaBytes.ico</file>
+		<file>branding/novabytes_nb_logo_128x128.png</file>
+		<file>branding/novabytes_nb_logo_512x512.png</file>
+
+		<file>icons/add_file.svg</file>
+		<file>icons/folder.svg</file>
+		<file>icons/rename.svg</file>
+		<file>icons/clear.svg</file>
+		<file>icons/undo.svg</file>
+		<file>icons/redo.svg</file>
+		<file>icons/help.svg</file>
+		<file>icons/settings.svg</file>
+	</qresource>
 </RCC>

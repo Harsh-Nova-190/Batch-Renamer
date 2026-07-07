@@ -25,6 +25,8 @@ public:
 
     void loadFiles(const std::vector<FileItem>& files);
 
+    void selectAllRows();
+
 private:
     void setupTable();
 };

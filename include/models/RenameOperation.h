@@ -2,7 +2,7 @@
  * ------------------------------------------------------------
  * Project : NovaBytes Batch Renamer
  * Company : NovaBytes
- * File    : RenameOptions.h
+ * File    : RenameOperation.h
  * Author  : Harsh Laskar
  * ------------------------------------------------------------
  */
@@ -11,16 +11,8 @@
 
 #include <QString>
 
-struct RenameOptions
+struct RenameOperation
 {
-    QString prefix;
-    QString suffix;
-
-    bool useNumbering = false;
-
-    int startNumber = 1;
-    int increment = 1;
-    int padding = 3;
-
-    bool keepExtension = true;
+    QString oldPath;
+    QString newPath;
 };

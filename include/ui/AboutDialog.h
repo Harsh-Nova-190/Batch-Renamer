@@ -2,25 +2,22 @@
  * ------------------------------------------------------------
  * Project : NovaBytes Batch Renamer
  * Company : NovaBytes
- * File    : RenameOptions.h
+ * File    : AboutDialog.h
  * Author  : Harsh Laskar
  * ------------------------------------------------------------
  */
 
 #pragma once
 
-#include <QString>
+#include <QDialog>
 
-struct RenameOptions
+class AboutDialog : public QDialog
 {
-    QString prefix;
-    QString suffix;
+    Q_OBJECT
 
-    bool useNumbering = false;
+public:
+    explicit AboutDialog(QWidget* parent = nullptr);
 
-    int startNumber = 1;
-    int increment = 1;
-    int padding = 3;
-
-    bool keepExtension = true;
+private:
+    void setupUI();
 };

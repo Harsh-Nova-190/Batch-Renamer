@@ -72,3 +72,60 @@ QLabel
 {
     color: white;
 }
+
+/* -------------------- Menu -------------------- */
+
+QMenuBar
+{
+    background-color: #0F172A;
+}
+
+QMenuBar::item
+{
+    padding: 6px 12px;
+}
+
+QMenuBar::item:selected
+{
+    background-color: #2563EB;
+    border-radius: 4px;
+}
+
+QMenu
+{
+    background-color: #111827;
+    border: 1px solid #334155;
+
+    min-width: 240px;
+}
+
+QMenu::item
+{
+    padding: 8px 24px;  
+}
+
+QMenu::item:selected
+{
+    background-color: #2563EB;
+}
+
+QMenu::separator
+{
+    height: 1px;
+    background: #334155;
+    margin: 4px 10px;
+}
+
+/* -------------------- Dialog -------------------- */
+
+QDialog {
+    background-color: #1E1E1E;
+}
+
+QLabel {
+    color: white;
+}
+
+QDialogButtonBox QPushButton {
+    min-width: 90px;
+}

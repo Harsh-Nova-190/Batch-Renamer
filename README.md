@@ -1,24 +1,178 @@
-# NovaBytes Batch Renamer
+﻿# NovaBytes Batch Renamer
 
-A modern desktop application for batch renaming files.
+A modern Windows batch file renaming application built with **C++20** and **Qt 6**.
+
+Developed by **NovaBytes**.
+
+---
+
+## Overview
+
+NovaBytes Batch Renamer is a lightweight desktop application designed to rename large numbers of files quickly and safely.
+
+The application provides a clean user interface with live preview, drag-and-drop support, and flexible renaming options.
+
+---
 
 ## Features
 
-- Batch rename files
-- Rename preview
-- Undo rename
-- Drag & Drop
-- Modern dark UI
+- Add individual files
+- Add an entire folder
+- Drag & Drop support
+- Live rename preview
+- Prefix renaming
+- Suffix renaming
+- Sequential numbering
+- Custom start number
+- Custom increment
+- Custom number padding
+- Undo
+- Redo
+- Dark theme
+- Modern Qt 6 interface
 
-## Built With
+---
+
+## Screenshots
+
+### Main Window
+
+> Screenshot coming soon.
+
+```
+screenshots/home.png
+```
+
+### Rename Preview
+
+> Screenshot coming soon.
+
+```
+screenshots/preview.png
+```
+
+---
+
+## Requirements
+
+- Windows 10 / Windows 11
+- Visual Studio 2022
+- Qt 6.11+
+- CMake 3.21+
+
+---
+
+## Building
+
+Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/NovaBytes-Batch-Renamer.git
+```
+
+Open the project using Visual Studio 2022.
+
+Configure CMake.
+
+Build the project.
+
+Run the executable.
+
+---
+
+## Project Structure
+
+```
+include/
+    core/
+    models/
+    ui/
+    widgets/
+
+src/
+    core/
+    ui/
+    widgets/
+
+resources/
+docs/
+tests/
+```
+
+---
+
+## Documentation
+
+Detailed documentation can be found inside the **docs/** directory.
+
+- Architecture
+- User Guide
+- Roadmap
+- Release Notes
+- Contributing Guide
+
+---
+
+## Roadmap
+
+### Version 1.0
+
+- File loading
+- Folder loading
+- Drag & Drop
+- Prefix rename
+- Suffix rename
+- Numbering
+- Undo / Redo
+
+### Version 1.1
+
+- Replace text
+- Regex rename
+- Change extension
+- Case conversion
+
+### Version 2.0
+
+- Saved presets
+- Plugin system
+- Multi-language support
+
+---
+
+## Technologies
 
 - C++20
-- Qt 6.11.1
+- Qt 6
 - CMake
 - Visual Studio 2022
 
-## Status
+---
 
-?? Currently in development.
+## License
 
-Developed by NovaBytes.
+This project is licensed under the MIT License.
+
+See the LICENSE file for details.
+
+---
+
+## Author
+
+**Harsh Laskar**
+
+Software Engineer & Game Developer
+
+Built under the **NovaBytes** brand.
+
+---
+
+## Support
+
+If you encounter a bug or have a feature request, please open an issue on GitHub.
+
+---
+
+## Star the Project
+
+If you found this project useful, consider giving it a ⭐ on GitHub.

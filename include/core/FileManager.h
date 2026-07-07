@@ -3,6 +3,7 @@
  * Project : NovaBytes Batch Renamer
  * Company : NovaBytes
  * File    : FileManager.h
+ * Author  : Harsh Laskar
  * ------------------------------------------------------------
  */
 
@@ -32,4 +33,6 @@ public:
     std::vector<FileItem> loadFiles(const QStringList& paths);
 
     std::vector<FileItem> openFolder(QWidget* parent = nullptr);
+
+    void clearFiles();
 };
