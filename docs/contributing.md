@@ -28,6 +28,7 @@ include/
     widgets/
 
 src/
+    app/
     core/
     ui/
     widgets/

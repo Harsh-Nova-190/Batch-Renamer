@@ -517,7 +517,7 @@ void MainWindow::connectSignals()
         []()
         {
             QDesktopServices::openUrl(
-                QUrl("https://github.com/YourGitHub/NovaBytes-Batch-Renamer/wiki"));
+                QUrl("https://github.com/Harsh-Nova-190/Batch-Renamer/blob/main/README.md"));
         });
 
     connect(
@@ -537,7 +537,7 @@ void MainWindow::connectSignals()
         []()
         {
             QDesktopServices::openUrl(
-                QUrl("https://github.com/YourGitHub/NovaBytes-Batch-Renamer/issues"));
+                QUrl("https://github.com/Harsh-Nova-190/Batch-Renamer/docs"));
         });
 
     connect(

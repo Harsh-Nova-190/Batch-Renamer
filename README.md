@@ -37,7 +37,6 @@ The application provides a clean user interface with live preview, drag-and-drop
 
 ### Main Window
 
-> Screenshot coming soon.
 
 ```
 screenshots/home.png
@@ -45,7 +44,6 @@ screenshots/home.png
 
 ### Rename Preview
 
-> Screenshot coming soon.
 
 ```
 screenshots/preview.png
@@ -67,7 +65,7 @@ screenshots/preview.png
 Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/NovaBytes-Batch-Renamer.git
+git clone https://github.com/Harsh-Nova-190/Batch-Renamer.git
 ```
 
 Open the project using Visual Studio 2022.
@@ -111,32 +109,6 @@ Detailed documentation can be found inside the **docs/** directory.
 - Release Notes
 - Contributing Guide
 
----
-
-## Roadmap
-
-### Version 1.0
-
-- File loading
-- Folder loading
-- Drag & Drop
-- Prefix rename
-- Suffix rename
-- Numbering
-- Undo / Redo
-
-### Version 1.1
-
-- Replace text
-- Regex rename
-- Change extension
-- Case conversion
-
-### Version 2.0
-
-- Saved presets
-- Plugin system
-- Multi-language support
 
 ---
 
