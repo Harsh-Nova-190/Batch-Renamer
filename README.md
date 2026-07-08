@@ -1,4 +1,4 @@
-﻿# NovaBytes Batch Renamer
+﻿﻿# NovaBytes Batch Renamer
 
 A modern Windows batch file renaming application built with **C++20** and **Qt 6**.
 
